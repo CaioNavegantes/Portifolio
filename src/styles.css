@@ -24,7 +24,7 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color); 
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
 }
 
@@ -123,7 +123,6 @@ footer {
   font-size: 14px;
 }
 
-/* animation */
 @media screen and (min-width: 1024px) {
   #cta {
     display: flex;
@@ -141,7 +140,7 @@ footer {
   }
 
   #profile {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin: 18px 0px 18px 0px;
@@ -173,7 +172,7 @@ footer {
   }
 
   #profile {
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     margin: 18px 0px 18px 0px;
