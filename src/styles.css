@@ -119,8 +119,9 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: center;
+  align-items: ;
   font-size: 14px;
+  margin-top: auto
 }
 
 @media screen and (min-width: 1024px) {
@@ -153,6 +154,18 @@ footer {
     border-radius: 100px;
     display: inline-block;
   }  
+
+  footer {
+    padding: 24px 0;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: ;
+    font-size: 14px;
+    margin-top: auto
+  }
+  
 }
 
 @media screen and (min-height: 1790px) {
@@ -191,5 +204,15 @@ footer {
     width: 100vw;
     height: 100vh;
     display:flex;
+  }
+  footer {
+    padding: 24px 0;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: ;
+    font-size: 14px;
+    margin-top: auto
   }
 }
