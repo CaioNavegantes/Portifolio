@@ -16,6 +16,7 @@
 body {
   background: var(--bg-url);
   width: 100vw;
+  height: 100vh;
   display:flex;
   background-position: absolute;
 }
@@ -23,6 +24,8 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color); 
+  font-weight: 500;
+  font-size: 16px;
 }
 
 #cta {
