@@ -156,7 +156,7 @@ footer {
   }  
 }
 
-@media screen and (min-height: 1024px) {
+@media screen and (min-height: 1790px) {
   #cta {
     display: flex;
     justify-content: center;
