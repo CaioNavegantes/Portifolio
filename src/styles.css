@@ -16,7 +16,6 @@
 body {
   background: var(--bg-url);
   width: 100vw;
-  height: 100vh;
   display:flex;
   background-position: absolute;
 }
@@ -24,8 +23,6 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color); 
-  font-weight: 700;
-  font-size: 16px;
 }
 
 #cta {
@@ -60,7 +57,7 @@ body * {
 }
 
 #profile {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   margin: 18px 0px 18px 0px;
@@ -115,13 +112,13 @@ ul li a:hover {
 
 footer {
   padding: 24px 0;
+  margin-top: auto;
   gap: 4px;
   display: flex;
   justify-content: center;
   text-align: center;
-  align-items: ;
+  align-items: center;
   font-size: 14px;
-  margin-top: auto
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,7 +138,7 @@ footer {
   }
 
   #profile {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin: 18px 0px 18px 0px;
@@ -157,18 +154,17 @@ footer {
 
   footer {
     padding: 24px 0;
+    margin-top: auto;
     gap: 4px;
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: ;
+    align-items: center;
     font-size: 14px;
-    margin-top: auto
   }
-  
 }
 
-@media screen and (min-height: 1790px) {
+@media screen and (min-width: 1940px) {
   #cta {
     display: flex;
     justify-content: center;
@@ -185,7 +181,7 @@ footer {
   }
 
   #profile {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     margin: 18px 0px 18px 0px;
@@ -205,14 +201,15 @@ footer {
     height: 100vh;
     display:flex;
   }
+
   footer {
     padding: 24px 0;
+    margin-top: auto;
     gap: 4px;
     display: flex;
     justify-content: center;
     text-align: center;
-    align-items: ;
+    align-items: center;
     font-size: 14px;
-    margin-top: auto
-  }
+  }  
 }
